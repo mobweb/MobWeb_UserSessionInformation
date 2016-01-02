@@ -1,0 +1,6 @@
+app/code/community/MobWeb/UserSessionInformation app/code/community/MobWeb/UserSessionInformation/
+
+app/etc/modules/MobWeb_UserSessionInformation.xml app/etc/modules/MobWeb_UserSessionInformation.xml
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"

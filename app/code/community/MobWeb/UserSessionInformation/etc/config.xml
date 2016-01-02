@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <MobWeb_UserSessionInformation>
+            <version>0.1.0</version>
+        </MobWeb_UserSessionInformation>
+    </modules>
+    <frontend>
+        <routers>
+            <usersessioninformation>
+                <use>standard</use>
+                <args>
+                    <module>MobWeb_UserSessionInformation</module>
+                    <frontName>usersessioninformation</frontName>
+                </args>
+            </usersessioninformation>
+        </routers>   
+    </frontend>
+</config>
